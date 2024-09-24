@@ -22,7 +22,7 @@ Menghitung Public Key
 
 Menghitung kunci bersama 
 
--  Fata meneriama Y dari Rivan dan menghitung kunci rahasia bersama K dengan rumus:
+-  Fata menerima Y dari Rivan dan menghitung kunci rahasia bersama K dengan rumus:
 
 -  K = Y<sup>x</sup> mod p = 44<sup>36</sup> mod 97, K = 16.
 
