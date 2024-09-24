@@ -4,7 +4,7 @@ Algoritma untuk mencari perbedaan diantara dua himpunan A dan B
 
 **Pseudocode:**
 
-'''
+```
 Output: Hitung (A-B)
 Input: Himpunan A, Himpunan B;
     Buat Himpunan C untuk menampung (A-B).
@@ -12,7 +12,7 @@ Input: Himpunan A, Himpunan B;
         if a tidak ada di Himpunan B:
             tambah a ke Himpunan C;
     Return Himpunan C;
-'''
+```
 
 **Implementasi dalam Java:**
 
