@@ -62,5 +62,5 @@ Berikut adalah pseudocode sederhana untuk sebuah fungsi hash yang menggunakan op
 Dalam contoh penggunaan, data "Hello World!" diubah menjadi hash menggunakan fungsi Hash. Fungsi ord(c) mengembalikan nilai ASCII dari karakter c. Proses hashing dilakukan dengan mengalikan dan menambahkan nilai ASCII dari setiap karakter dalam data input. Setelah semua karakter diproses, nilai hash akhir dicetak ke layar.
 
 
-## KESIMPULAN
+## Kesimpulan
 Algoritma hashing adalah teknik penting yang mengubah data menjadi nilai tetap yang lebih kecil, digunakan untuk keamanan, pencarian cepat, dan blockchain. Fungsi hash yang baik bersifat deterministik, memiliki panjang tetap, dan mendistribusikan data dengan merata. Hashing memudahkan pengelolaan data besar dan memastikan integritas serta keamanan informasi, membuatnya sangat penting dalam dunia digital.
