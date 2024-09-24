@@ -1,5 +1,9 @@
 # Hashing: Dari Pencarian Data Hingga Keamanan Digital
+Nama Anggota :
+* Nadya Aurora Gebi Agista (244107020034)
+* Nayla Akas Oktavia (244107020038)
 
+### Pengertian
 Algoritma hashing adalah teknik yang digunakan untuk mengubah data input menjadi nilai tetap yang biasanya lebih kecil, yang disebut hash code atau hash value. Proses ini sangat berguna dalam berbagai aplikasi, terutama dalam pengelolaan data, struktur data, dan algoritma pencarian.
 
 ### Konsep Dasar Hashing
