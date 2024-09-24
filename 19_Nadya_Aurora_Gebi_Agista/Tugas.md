@@ -37,7 +37,7 @@ Ada beberapa jenis algoritma hashing yang umum digunakan, seperti:
 * *SHA-256 (Secure Hash Algorithm 256):* Algoritma hash yang menghasilkan hash 256-bit.
 * *SHA-512 (Secure Hash Algorithm 512):* Algoritma hash yang menghasilkan hash 512-bit.
 
-### Pseudecode
+### Pseudocode
 Berikut adalah pseudocode sederhana untuk sebuah fungsi hash yang menggunakan operasi perkalian dan penambahan nilai ASCII:
 
     FUNCTION simple_hash(data):
