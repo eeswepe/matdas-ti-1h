@@ -21,6 +21,7 @@ p -> ~q == q -> ~p
 Karena ~p ada 2, maka kedua premis bisa dicoret sehingga bisa menghasilkan :
 
 q -> r
+
 q
 ____________ 
 r
