@@ -76,7 +76,7 @@ C = { (P ∪ Q)’ }
 
 ## Nomor 4
 
-![Diagram Venn](image/Venn.png)
+Diagram Venn di Folder Image
 
 ## Nomor 5
 
