@@ -18,21 +18,18 @@ Jika saya ikut ujian susulan, maka saya lulus ujian
 2. 
 a. ~p -> (p -> q)
 |p|q|~p|p -> q|~p -> (p -> q)|
-|--|--|--|--|--|
 |B|B|S|B|B|
 |B|S|B|S|B|
 |S|B|B|B|B|
 |S|S|B|B|B|
 b. ~(p -> q) -> ~q
 |p|q|p -> q|~(p -> q)|~q|~(p -> q) -> ~q|
-|--|--|--|--|--|--|
 |B|B|B|S|S|B|
 |B|S|S|B|B|B|
 |S|B|B|S|S|B|
 |S|S|B|S|B|B|
 c. (p ∧ q) -> (p -> q)
 |p|q|p ∧ q|p -> q|(p∧q) -> (p -> q)|
-|--|--|--|--|--|--|
 |B|B|B|B|B|
 |B|S|S|S|S|
 |S|B|S|B|B|
