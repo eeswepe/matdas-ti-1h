@@ -48,27 +48,24 @@ Semua tiga implikasi adalah tautologi berdasarkan analisis tabel kebenaran yang 
 
 ## SOAL 3.
 Notasi Himpunan
-
-- Himpunan U: 
-  - $$ U = \{ \text{mahasiswa} \} $$
-
-- Himpunan P: 
-  - $$ P = \{ x \in U | \text{nilai ujian UTS}(x) > 80 \} $$
-
-- Himpunan Q: 
-  - $$ Q = \{ x \in U | \text{nilai ujian UAS}(x) > 80 \} $$
-
-- Nilai A (mahasiswa yang mendapat nilai A):
-  - $$ A = P \cap Q = \{ x \in U | (\text{nilai ujian UTS}(x) > 80) \land (\text{nilai ujian UAS}(x) > 80) \} $$
-
-- Nilai B (mahasiswa yang mendapat nilai B):
-  - $$ B = (P \cup Q) - (P \cap Q) = \{ x \in U | (\text{nilai ujian UTS}(x) > 80) \lor (\text{nilai ujian UAS}(x) > 80) \} - \{ x \in U | (\text{nilai ujian UTS}(x) > 80) \land (\text{nilai ujian UAS}(x) > 80) \} $$
-
-- Nilai C (mahasiswa yang mendapat nilai C):
-  - $$ C = U - (P \cup Q) = \{ x \in U | (\text{nilai ujian UTS}(x) ≤ 80) \land (\text{nilai ujian UAS}(x) ≤ 80) \} $$
+U = himpunan mahasiswa
+P = himpunan mahsiswa yang nilai ujian UTS di atas 80
+Q = himpunan mahasiswa yang nilai ujian UAS diatas 80
+maka notasinya :
+A = P∩Q
+B = (P∪Q)-(P∩Q)
+C = U-(P∪Q)
 
 ## SOAL 4.
 ![enter image description here](https://i.postimg.cc/85rcJyYV/Cuplikan-layar-2024-09-25-135810.png)
 ## SOAL 5.
 Nilai Irisan:
-$$ A \cap C = \{1, 2, 6, 13, 18\} $$
+Dari himpunan A dan C yang diberikan:
+
+-   A={1,2,5,6,7,11,12,13,15,18,20}
+    
+-   C={1,2,3,6,8,9,10,13,17,18}
+    
+    Elemen yang beririsan dari kedua Himpunan Tersebut adalah
+    
+    A∩C={1,2,6,13,18}
