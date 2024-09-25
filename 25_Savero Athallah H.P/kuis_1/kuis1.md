@@ -13,6 +13,7 @@ Tetapi saya bisa mengikuti ujian susulan -> q
 Oleh karena itu saya lulus ujian - > r
 
 Pembuktian 
+
 p -> ~q == q -> ~p
 
 ~r -> p  == ~p -> r
