@@ -59,6 +59,7 @@
 	### C = U-(P∪Q)
 ---
 4. Diagram Venn
+
 ![enter image description here](https://i.postimg.cc/7ZmfpJzj/Screenshot-from-2024-09-25-13-57-40.png)
 
 ---
