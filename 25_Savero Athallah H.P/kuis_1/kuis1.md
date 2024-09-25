@@ -17,7 +17,9 @@ Pembuktian
 p -> ~q == q -> ~p
 
 ~r -> p  == ~p -> r
+
 Karena ~p ada 2, maka kedua premis bisa dicoret sehingga bisa menghasilkan :
+
 q -> r
 q
 ____________ 
