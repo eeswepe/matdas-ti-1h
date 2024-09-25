@@ -60,10 +60,8 @@ Komplemen gabungan himpunan P dan Q adalah C, dimana C tidak berisi elemen dari 
 4. ![](https://i.postimg.cc/mZnh2v2k/Screenshot-2024-09-25-150424.png)
 A U B = {a, e, k, o, p, r, t}
 5.
-```
 A = {1, 2, 5, 6, 7, 11, 12, 13, 15, 18, 20}
 B = {2, 3, 4, 5,, 6, 7, 8, 12, 13}
 C = {1, 2, 3, 6, 8, 9, 10, 13, 17, 18}
 S = {x|x <= 20, x = bilangan asli}
 A ∩ C = {1, 2, 6, 13, 18}
-```
