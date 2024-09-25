@@ -63,4 +63,5 @@ C = U - (P ∪ Q)
 ![Diagram Venn](https://i.postimg.cc/cHqZjdFV/image.png)
 
 **Nomer 5**
+
 A ∩ B = {1, 2, 6, 13, 18}
