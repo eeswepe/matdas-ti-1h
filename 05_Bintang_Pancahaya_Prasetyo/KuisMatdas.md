@@ -67,7 +67,7 @@ Jadi, notasi himpunan untuk tiap nilai mahasiswa adalah:
 
 
 # SOAL 4
-![alt text](<Brown Modern Venn Diagram Graph.png>)
+![Diagram Venn](<Brown Modern Venn Diagram Graph.png>)
 A ∪ B = {a, p, o, t}
 
 # SOAL 5
