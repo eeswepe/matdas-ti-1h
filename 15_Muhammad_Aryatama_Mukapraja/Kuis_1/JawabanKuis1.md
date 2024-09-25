@@ -68,15 +68,15 @@ TERBUKTI
 
 ## Nomor 3
 
-A = { P ∪ Q }
+A = { P ∩ Q }
 
-B = { P ∩ Q }
+B = { (P ∪ Q) - (P ∩ Q) }
 
 C = { (P ∪ Q)’ }
 
 ## Nomor 4
 
-Diagram Venn di Folder Image
+Diagram Venn di Folder Kuis_1
 
 ## Nomor 5
 
