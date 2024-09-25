@@ -41,7 +41,6 @@ Kesimpulan
 Contoh di atas menunjukkan bagaimana Alice dan Bob dapat menggunakan algoritma Diffie-Hellman untuk menghasilkan kunci rahasia bersama dengan aman, meskipun mereka hanya bertukar kunci publik melalui saluran yang tidak aman. Proses ini mengandalkan sifat matematika dari eksponen dan modulo untuk menjaga keamanan kunci yang dihasilkan.
 
 
-
 ## Kode Pemrograman
 
 ```python
