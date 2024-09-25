@@ -18,6 +18,7 @@ Jika saya ikut ujian susulan, maka saya lulus ujian
 ```
 2. 
 a. ~p -> (p -> q)
+
 |p|q|~p|p -> q|~p -> (p -> q)|
 |--|--|--|--|--|
 |B|B|S|B|B|
@@ -25,6 +26,7 @@ a. ~p -> (p -> q)
 |S|B|B|B|B|
 |S|S|B|B|B|
 b. ~(p -> q) -> ~q
+
 |p|q|p -> q|~(p -> q)|~q|~(p -> q) -> ~q|
 |--|--|--|--|--|--|
 |B|B|B|S|S|B|
@@ -32,6 +34,7 @@ b. ~(p -> q) -> ~q
 |S|B|B|S|S|B|
 |S|S|B|S|B|B|
 c. (p ∧ q) -> (p -> q)
+
 |p|q|p ∧ q|p -> q|(p∧q) -> (p -> q)|
 |--|--|--|--|--|
 |B|B|B|B|B|
@@ -54,11 +57,11 @@ Komplemen irisan himpunan P dan Q adalah B, dimana B tidak berisi elemen dari ir
 (P U Q)c = {C | C ~~∈~~ P U Q ∧ C ∈ S}
 Komplemen gabungan himpunan P dan Q adalah C, dimana C tidak berisi elemen dari gabungan himpunan P dan Q, namun masih termasuk dalam himpunan semesta(S)
 ```
-4.
-```
-![](https://i.postimg.cc/mZnh2v2k/Screenshot-2024-09-25-150424.png)
+4. ![](https://i.postimg.cc/mZnh2v2k/Screenshot-2024-09-25-150424.png)
 A U B = {a, e, k, o, p, r, t}
-6. A = {1, 2, 5, 6, 7, 11, 12, 13, 15, 18, 20}
+5.
+```
+A = {1, 2, 5, 6, 7, 11, 12, 13, 15, 18, 20}
 B = {2, 3, 4, 5,, 6, 7, 8, 12, 13}
 C = {1, 2, 3, 6, 8, 9, 10, 13, 17, 18}
 S = {x|x <= 20, x = bilangan asli}
