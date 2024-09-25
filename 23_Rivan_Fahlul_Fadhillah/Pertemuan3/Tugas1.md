@@ -4,15 +4,42 @@
 Algoritma Diffie-Hellman adalah metode untuk bertukar kunci kriptografis secara aman melalui saluran publik. Dalam contoh ini, kita akan menunjukkan langkah-langkah untuk menghasilkan kunci rahasia bersama antara dua pihak, Fata dan Rivan.
 Melakukan inisialisasi parameter:
 
-•	Menetukan bilangan prima p dan basis g (generator). Misalnya, kita memilih p = 97 dan g = 5. Ini merupakan elemen dari himpunan bilangan bulat modulo p.
+Menetukan bilangan prima p dan basis g (generator). Misalnya, kita memilih p = 97 dan g = 5. Ini merupakan elemen dari himpunan bilangan bulat modulo p.
 
 Pemilihan Private Key :
 
-•	Kami masing – masing memilih kunci pribadi secara acak dari himpunan {1,2, ..., p-1}:
+- Kami masing – masing memilih kunci pribadi secara acak dari himpunan {1,2, ..., p-1}:
 
-Fata memilih x (misalnya x = 36) 
+- Fata memilih x (misalnya x = 36) 
 
-Rivan memilih y (misalnya y = 58)
+-  Rivan memilih y (misalnya y = 58)
+
+Menghitung Public Key
+
+-	Fata menghitung Public Key x menggunakan rumus: X =  g<sup>x</sup> mod p = 5<sup>36</sup> mod 97, X = 50. Fata mengirimkan X ke Rivan
+
+- Rivan menghitung Public Key y menggunakan rumus: Y = g<sup>y</sup> mod p = 5<sup>58</sup> mod 97, Y = 44. Rivan mengirimkan Y ke Fata.
+
+Menghitung kunci bersama 
+
+-  Fata menerima Y dari Rivan dan menghitung kunci rahasia bersama K dengan rumus:
+
+-  K = Y<sup>x</sup> mod p = 44<sup>36</sup> mod 97, K = 16.
+
+-  Rivan menerima X dari Fata dan menghitung Private Key bersama K dengan rumus:
+
+-  K = X<sup>y</sup> mod p = 50<sup>58</sup> mod 97, K = 16
+
+Private Key bersama
+
+-  Private Key yang dihasilkan oleh Fata dan Rivan adalah K = 16. Kunci ini dapat digunakan untuk enkripsi dan deskripsi pesan antara merekan.
+
+Kesimpulan
+
+
+-  Contoh di atas menunjukkan bagaimana Alice dan Bob dapat menggunakan algoritma Diffie-Hellman untuk menghasilkan kunci rahasia bersama dengan aman, meskipun mereka hanya bertukar kunci publik melalui saluran yang tidak aman. Proses ini mengandalkan sifat matematika dari eksponen dan modulo untuk menjaga keamanan kunci yang dihasilkan.Kesimpulan
+Contoh di atas menunjukkan bagaimana Alice dan Bob dapat menggunakan algoritma Diffie-Hellman untuk menghasilkan kunci rahasia bersama dengan aman, meskipun mereka hanya bertukar kunci publik melalui saluran yang tidak aman. Proses ini mengandalkan sifat matematika dari eksponen dan modulo untuk menjaga keamanan kunci yang dihasilkan.
+
 
 
 ## Kode Pemrograman
