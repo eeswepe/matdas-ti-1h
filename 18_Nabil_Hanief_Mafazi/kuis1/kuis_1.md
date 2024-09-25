@@ -78,7 +78,7 @@ Semua hasil dalam kolom terakhir adalah benar (**T**), jadi ( p ∧ q ) → ( p 
 # 4. Berikut ini adalah hasil diagram venn:
 ![Diagram Venn][def]
 
-[def]: diagramven.png
+[def]: diagramveen.png
 
 
 # 5. Irisan Himpunan
