@@ -90,7 +90,7 @@ Ini berarti himpunan C adalah himpunan mahasiswa U dikurangi gabungan dari himpu
 -   **Himpunan A**:  A= P∩Q
 -   **Himpunan B**:  B=P∪Q
 -   **Himpunan C**:  C=U−(P∪Q)
-
+p
 ## No 4
 ![Keterangan Gambar](p.png)
 ![Keterangan Gambar](pp.png)
