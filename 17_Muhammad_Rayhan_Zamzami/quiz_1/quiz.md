@@ -58,6 +58,8 @@ Jika kedua nilai UTS dan UAS dibawah 80
 C = U - (P ∪ Q)
 
 **Nomer 4**
+
+
 ![Diagram Venn](https://i.postimg.cc/cHqZjdFV/image.png)
 
 **Nomer 5**
