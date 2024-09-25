@@ -53,7 +53,4 @@ def floyd_warshall(graph):
             for j in range(V):
                 # Jika jarak melalui simpul k lebih pendek, perbarui jarak
                 dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])
-                
-![Algoritma Floyd-Warshall](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*DdqguI9FlBehCWALlFDEOw.png)
-
     return dist
