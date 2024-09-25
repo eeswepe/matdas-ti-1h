@@ -1,5 +1,5 @@
 ## Quiz 1 Matdas
-
+```
  1. Argumen tersebut adalah sahih dan berikut pembuktiannya
 p : saya pulang kampung
 q : saya ikut ujian susulan
@@ -57,3 +57,4 @@ B = {2, 3, 4, 5,, 6, 7, 8, 12, 13}
 C = {1, 2, 3, 6, 8, 9, 10, 13, 17, 18}
 S = {x|x <= 20, x = bilangan asli}
 A ∩ C = {1, 2, 6, 13, 18}
+```
