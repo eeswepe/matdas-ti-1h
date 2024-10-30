@@ -68,15 +68,15 @@ TERBUKTI
 
 ## Nomor 3
 
-A = { P ∩ Q }
+A = { P ∪ Q }
 
-B = { (P ∪ Q) - (P ∩ Q) }
+B = { P ∩ Q }
 
 C = { (P ∪ Q)’ }
 
 ## Nomor 4
 
-Diagram Venn di Folder Kuis_1 
+Diagram Venn di Folder Image
 
 ## Nomor 5
 
@@ -84,4 +84,4 @@ A = {1, 2, 5, 6, 7, 11, 12, 13, 15, 18, 20}
 
 C = {1, 2, 3, 6, 8, 9, 10, 13, 17, 18}
 
-Maka, A ∩ C = {1, 2, 6, 13, 18}
+A ∩ C = {1, 2, 6, 13, 18}
