@@ -449,7 +449,7 @@ default:
 ```
 Hanya jika input tidak valid
 
-# Perintah Apabila `choice = 2`
+# Perintah Apabila Selain 1 dan 2
 ```
 else {
     System.out.println("Input salah");
