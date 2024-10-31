@@ -30,7 +30,7 @@ public class Bagian2 {
 
       
         System.out.println("Data Sensor:");
-        System.out.printf("Suhu: %.1f °C (dibulatkan: %d)\n", suhu, suhuBulat);
+        System.out.printf("Suhu: %d °C \n", suhuBulat);
         System.out.println("  Biner: " + suhuBiner);
         System.out.println("  Heksadesimal: " + suhuHex);
         
