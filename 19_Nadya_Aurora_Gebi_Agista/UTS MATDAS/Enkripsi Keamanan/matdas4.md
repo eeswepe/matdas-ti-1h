@@ -7,7 +7,7 @@
 	-  Pertimbangkan bilangan biner 11010110 dengan kunci 10101010
 	![](https://i.postimg.cc/fR6bZKv4/Enkripsi-2.jpg)
 	
-	
+	 
 #### KODE PROGRAM :
 ```java
 import java.util.Scanner;
