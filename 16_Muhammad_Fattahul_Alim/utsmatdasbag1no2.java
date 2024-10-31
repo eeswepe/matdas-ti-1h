@@ -24,7 +24,7 @@ public class utsmatdasbag1no2 {
         int loghasil;
         // untuk menyimpan nilai string
         String biners, biner2s;
-        // untuk menyimpan
+
 
         System.out.print("Masukkang angka biner ke-1 (1 dan 0): ");
         biner = sc.nextInt();
