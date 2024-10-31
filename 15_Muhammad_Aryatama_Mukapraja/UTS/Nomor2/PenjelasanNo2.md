@@ -329,6 +329,7 @@ ________________
 Operator OR hanya mengoperasi digit sesuai binary yang paling pendek, sedangkan yang lain nilainya sama seperti sisa yang tidak dioperasikan
 
 ### Skenario 1
+```
 if (binary1.length() > binary2.length()) {
     ...
 }
