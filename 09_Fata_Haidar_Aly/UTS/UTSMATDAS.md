@@ -1,7 +1,11 @@
 # UTS MATEMATIKA DASAR
+
 Nama : Fata Haidar Aly
+
 Absen : 09
+
 Kelas : TI 1H
+
 NIM : 244107020108
 
 # Bagian 1
