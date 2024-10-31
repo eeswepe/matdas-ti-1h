@@ -42,9 +42,10 @@ public class utsmatdasbag2 {
         for (int i = index - 1; i >= 0; i--) {
             System.out.print(binSuhu[i]);
         } System.out.println();
-        // konversi ke heksadesimal
+       
         // untuk menyimpan sisa
         int sisa;
+         // konversi ke heksadesimal
         String heksaHasil = "";
         while (simpanhek > 0) {
             sisa = simpanhek % 16;
