@@ -1,17 +1,13 @@
 # SOAL 1
-p = Saya pulang kampung  
-q = Saya bisa mengikuti ujian susulan  
-r = Saya lulus ujian  
-~q = Saya tidak bisa mengikuti ujian susulan  
-~r = Saya tidak lulus ujian  
-
-Jika saya pulang kampung, maka saya tidak mengikuti ujian susulan. (p → ~q)  
-Jika saya tidak lulus ujian, maka saya pulang kampung. (~r → p)  
-Tetapi saya bisa mengikuti ujian susulan. (q)  
-Oleh karena itu saya lulus ujian. (r) atau kesimpulan  
-
-
-Argumen tersebut valid atau sahih, karena saya bisa mengikuti ujian dan saya lulus ujian, kecuali jika saya pulang kampung maka saya tidak bisa mengikuti ujian dan tidak lulus ujian
+Argumen tersebut adalah valid. Karena,
+- Asumsikan kesimpulan salah ~r (negasi dari r)
+- Dari premis kedua (~r → p) dan asumsi ~r, kita bisa menyimpulkan p (menggunakan modus ponens)
+- Dari premis pertama (p → ~q) dan hasil langkah 2, kita bisa menyimpulkan
+~q (menggunakan modus ponens lagi)
+- Tetapi, kita memiliki premis ketiga q
+~q (dari langkah 3) dan q (premis ketiga) membentuk kontradiksi
+- Karena kita menemukan kontradiksi, asumsi awal kita (~r) harus salah
+- Jika ~r salah, maka r harus benar
 
 # SOAL 2
 a. ~p → (p → q)
@@ -67,8 +63,7 @@ Jadi, notasi himpunan untuk tiap nilai mahasiswa adalah:
 
 
 # SOAL 4
-![diagram venn](DiagramVenn.png)
-
+[![bidau.png](https://i.postimg.cc/4NzZkqYr/bidau.png)](https://postimg.cc/ykY20fXP)
 A ∪ B = {a, p, o, t}
 
 # SOAL 5
@@ -76,7 +71,6 @@ Cari elemen yang ada di kedua himpunan:
 
 Elemen yang ada di 
 𝐴 : 1, 2, 5, 6, 7, 11, 12, 13, 15, 18, 20
-
 Elemen yang ada di 
 𝐶 : 1, 2, 3, 6, 8, 9, 10, 13, 17, 18
 
