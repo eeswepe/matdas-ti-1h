@@ -11,23 +11,23 @@
 
 ### ( A ). ~p -> ( p -> q )
 - Semua hasil dalam kolom terakhir adalah benar (**T**), jadi ~p -> ( p -> q ) adalah *tautologi*.
-| p     | q     | ~p    | p -> q | ~p -> ( p -> q ) |
-|-------|-------|-------|-------|---------------|
-| T     | T     | F     | T     | T             |
-| T     | F     | F     | F     | T             |
-| F     | T     | T     | T     | T             |
-| F     | F     | T     | T     | T             |
 
-
+| p     | q     |  ~q | p -> q | ~p -> ( p -> q ) |
+|-------|-------|-------|-------|--------------------|
+| T     | T     | T     | T     | T                  |
+| T     | F     | F     | F     | T                  |
+| F     | T     | F     | T     | T                  |
+| F     | F     | F     | T     | T                  |
 
 
 ---
 
 ### ( B ).  ~( p -> q ) -> ~q
 - Semua hasil dalam kolom terakhir adalah benar ( **T** ), jadi ~( p -> q ) → ~q adalah *tautologi*.
+
 | p     | q     | p → q | ¬(p → q) | ¬q    | ¬(p → q) → ¬q |
-|-------|-------|-------|----------|-------|----------------|
-| T     | T     | T     | F        | F     | T              |
+| ------- | ------- | ------- | ---------- | ------- | ----------------| 
+|  T     | T     | T     | F        | F     | T                                          |
 | T     | F     | F     | T        | T     | T              |
 | F     | T     | T     | F        | F     | T              |
 | F     | F     | T     | F        | T     | T              |
@@ -78,7 +78,7 @@ Semua hasil dalam kolom terakhir adalah benar (**T**), jadi ( p ∧ q ) → ( p 
 # 4. Berikut ini adalah hasil diagram venn:
 ![Diagram Venn][def]
 
-[def]: diagramven.png
+[def]: diagramveen.png
 
 
 # 5. Irisan Himpunan
