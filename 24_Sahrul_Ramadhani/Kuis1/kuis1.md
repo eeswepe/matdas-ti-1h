@@ -77,7 +77,7 @@ Semua hasil dalam kolom terakhir adalah benar (T), jadi (p ∧ q) → (p → q) 
 
 
 # 4. Berikut ini adalah hasil diagram venn:
-![Diagram Venn][def]
+![Diagram Venn][def] [style=width:300px; height:auto;]
 
 [def]: diagramven.png
 
