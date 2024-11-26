@@ -1,4 +1,4 @@
-# UTS MATEMATIKA DASAR
+# TUGAS 10 MATEMATIKA DASAR
 Nama : Fata Haidar Aly
 Absen : 09
 Kelas : TI 1H
