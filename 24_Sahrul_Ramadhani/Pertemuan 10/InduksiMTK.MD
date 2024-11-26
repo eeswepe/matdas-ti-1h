@@ -1,77 +1,70 @@
-### **Penyelesaian dengan Induksi Matematika**
+### Penyelesaian dengan Induksi Matematika
 
-#### **Pernyataan 1**  
-\[
-2 + 4 + 6 + \dots + 2n = n(n+1)
-\]
+#### Pernyataan 1
+**Pernyataan:**
+2 + 4 + 6 + ... + 2n = n(n + 1)
 
-- **Basis**:  
-  \[
-  2 = 1(1+1) \quad \text{Benar.}
-  \]
+- **Basis:**
+  Ketika n = 1:  
+  2 = 1(1 + 1) → Benar.
 
-- **Hipotesis**:  
-  \[
-  2 + 4 + \dots + 2k = k(k+1)
-  \]
+- **Hipotesis:**
+  Misalkan pernyataan benar untuk n = k:  
+  2 + 4 + ... + 2k = k(k + 1).
 
-- **Induksi**:  
-  \[
-  2 + 4 + \dots + 2k + 2(k+1) = k(k+1) + 2(k+1) = (k+1)(k+2)
-  \]
-
-Pernyataan terbukti.
-
----
-
-#### **Pernyataan 2**  
-\[
-1 + 4 + 9 + \dots + n^2 = \frac{1}{6}n(n+1)(2n+1)
-\]
-
-- **Basis**:  
-  \[
-  1 = \frac{1}{6}(1)(2)(3) \quad \text{Benar.}
-  \]
-
-- **Hipotesis**:  
-  \[
-  1 + 4 + \dots + k^2 = \frac{1}{6}k(k+1)(2k+1)
-  \]
-
-- **Induksi**:  
-  \[
-  1 + 4 + \dots + k^2 + (k+1)^2 = \frac{1}{6}k(k+1)(2k+1) + (k+1)^2
-  \]
-  \[
-  = \frac{1}{6}(k+1)(k+2)(2k+1)
-  \]
+- **Induksi:**
+  Untuk n = k + 1:  
+  2 + 4 + ... + 2k + 2(k + 1)  
+  = k(k + 1) + 2(k + 1)  
+  = (k + 1)(k + 2).  
+  Jadi, pernyataan benar untuk n = k + 1.
 
 Pernyataan terbukti.
 
 ---
 
-#### **Pernyataan 3**  
-\[
-2 + 6 + 12 + \dots + n(n+1) = \frac{1}{3}n(n+1)(n+2)
-\]
+#### Pernyataan 2
+**Pernyataan:**
+1 + 4 + 9 + ... + n² = (1/6) * n(n + 1)(2n + 1)
 
-- **Basis**:  
-  \[
-  2 = \frac{1}{3}(1)(2)(3) \quad \text{Benar.}
-  \]
+- **Basis:**
+  Ketika n = 1:  
+  1 = (1/6) * 1(1 + 1)(2(1) + 1)  
+  = 1 → Benar.
 
-- **Hipotesis**:  
-  \[
-  2 + 6 + \dots + k(k+1) = \frac{1}{3}k(k+1)(k+2)
-  \]
+- **Hipotesis:**
+  Misalkan pernyataan benar untuk n = k:  
+  1 + 4 + 9 + ... + k² = (1/6) * k(k + 1)(2k + 1).
 
-- **Induksi**:  
-  \[
-  2 + 6 + \dots + k(k+1) + (k+1)(k+2) = \frac{1}{3}k(k+1)(k+2) + (k+1)(k+2)
-  \]
-  \[
-  = \frac{1}{3}(k+1)(k+2)(k+3)
-  \]
+- **Induksi:**
+  Untuk n = k + 1:  
+  1 + 4 + 9 + ... + k² + (k + 1)²  
+  = (1/6) * k(k + 1)(2k + 1) + (k + 1)²  
+  = (1/6) * (k + 1)(k + 2)(2k + 1).  
+  Jadi, pernyataan benar untuk n = k + 1.
+
+Pernyataan terbukti.
+
+---
+
+#### Pernyataan 3
+**Pernyataan:**
+2 + 6 + 12 + ... + n(n + 1) = (1/3) * n(n + 1)(n + 2)
+
+- **Basis:**
+  Ketika n = 1:  
+  2 = (1/3) * 1(1 + 1)(1 + 2)  
+  = 2 → Benar.
+
+- **Hipotesis:**
+  Misalkan pernyataan benar untuk n = k:  
+  2 + 6 + 12 + ... + k(k + 1) = (1/3) * k(k + 1)(k + 2).
+
+- **Induksi:**
+  Untuk n = k + 1:  
+  2 + 6 + 12 + ... + k(k + 1) + (k + 1)(k + 2)  
+  = (1/3) * k(k + 1)(k + 2) + (k + 1)(k + 2)  
+  = (1/3) * (k + 1)(k + 2)(k + 3).  
+  Jadi, pernyataan benar untuk n = k + 1.
 
 Pernyataan terbukti.
