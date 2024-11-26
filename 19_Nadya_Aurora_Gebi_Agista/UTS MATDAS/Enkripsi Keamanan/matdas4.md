@@ -7,7 +7,7 @@
 	-  Pertimbangkan bilangan biner 11010110 dengan kunci 10101010
 	![](https://i.postimg.cc/fR6bZKv4/Enkripsi-2.jpg)
 	
-	
+	 
 #### KODE PROGRAM :
 ```java
 import java.util.Scanner;
@@ -134,7 +134,7 @@ public class matdas4 {
 	- `String hasilBiner = "";` digunakan untuk menampung hasil konversi biner sebagai string kosong.
 	-   `int tempBiner = hasilXOR;` digunakan untuk mempermudah proses konversi tanpa mengubah nilai asli `hasilXOR`.
 	-   `if(tempBiner == 0) { hasilBiner = "0"; }` 
-		– Jika `tempBiner` bernilai `0`, `hasilBiner` langsung diisi `"0"` karena biner dari 0 adalah 0. 
+	  	- Jika `tempBiner` bernilai `0`, `hasilBiner` langsung diisi `"0"` karena biner dari 0 adalah 0. 
 	-   `else { while(tempBiner > 0) { ... } }` 
 		- Jika `tempBiner` bukan `0`, perulangan `while` akan dijalankan seperti berikut ini:
 		- `(tempBiner % 2)` akan memberikan bit paling rendah dari `tempBiner`, yang ditambahkan di depan `hasilBiner`.

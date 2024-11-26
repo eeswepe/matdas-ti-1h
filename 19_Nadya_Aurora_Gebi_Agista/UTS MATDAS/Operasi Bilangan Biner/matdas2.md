@@ -114,14 +114,16 @@ public class matdas2 {
 #### Penjelasan Kode Program :
  - **Deklarasi Scanner** 
 	``` java
-	import  java.util.Scanner;
+		import  java.util.Scanner;
 	```
+	
 	- Library scanner digunakan untuk membaca inputan dari pengguna
 	
  - **Scanner**
 	``` java
-	 Scanner  sc  =  new  Scanner(System.in);
-	 ```
+		 Scanner  sc  =  new  Scanner(System.in);
+	```
+
 	- digunakan untuk membuat objek Scanner untuk menerima  dan membaca inputan dari pengguna.
 
 - **Pilihan Operasi**
@@ -178,49 +180,55 @@ public class matdas2 {
 
 - **Pengolahan Berdasarkan Pilihan Pengguna**
 	##### Case 1 (Penjumlahan)
-		```java
-			switch (pilihan) {
-				case  1:  // Penjumlahan
-					int  penjumlahan  =  bil1  +  bil2;
-					System.out.println("HASIL: ");
-					System.out.println( biner1  +  " + "  +  biner2  +  " = "  +  desimalBiner(penjumlahan));
-					break;
-		```
-		- digunakan untuk menghitung penjumlahan antara dua bilangan desimal yang diperoleh dan menampilkan hasil dalam bentuk bilangan biner.
+	```java
+	switch (pilihan) {
+		case  1:  // Penjumlahan
+			int  penjumlahan  =  bil1  +  bil2;
+			System.out.println("HASIL: ");
+			System.out.println( biner1  +  " + "  +  biner2  +  " = "  +  desimalBiner(penjumlahan));
+			break;
+	```
+	  
+	- digunakan untuk menghitung penjumlahan antara dua bilangan desimal yang diperoleh dan menampilkan hasil dalam bentuk bilangan biner.
+  
 	
 	##### Case 2 (Pengurangan)
-		```java
-			case  2:  // Pengurangan
-				int  pengurangan  =  bil1  -  bil2;
-				if (pengurangan  <  0) {
-					System.out.println("Hasil pengurangan negatif. Periksa kembali inputnya.");
-				} else {
-					System.out.println("HASIL: ");
-					System.out.println(biner1  +  " - "  +  biner2  +  " = "  +  desimalBiner(pengurangan));
-				}
-				break;
-		```
-		- digunakan untuk menghitung pengurangan dan menampilkan hasil dari operasi pengurangan bilangan biner tersebut. Jika hasilnya negatif, maka program akan menampilkan pesan bahwa hasil pengurangan negatif.
+	```java
+	case  2:  // Pengurangan
+	int  pengurangan  =  bil1  -  bil2;
+	if (pengurangan  <  0) {
+		System.out.println("Hasil pengurangan negatif. Periksa kembali inputnya.");
+		} else {
+		System.out.println("HASIL: ");
+		System.out.println(biner1  +  " - "  +  biner2  +  " = "  +  desimalBiner(pengurangan));
+		}
+		break;
+	```
+	  
+	- digunakan untuk menghitung pengurangan dan menampilkan hasil dari operasi pengurangan bilangan biner tersebut. Jika hasilnya negatif, maka program akan menampilkan pesan bahwa hasil pengurangan negatif.
+  
 	
 	##### Case 3 (Perkalian)
-		```java
-			case  3:  // Perkalian
-				int  perkalian  =  bil1  *  bil2;
-				System.out.println("HASIL: " );
-				System.out.println( biner1  +  " * "  +  biner2  +  " = "  +  desimalBiner(perkalian));
-				break;
-		```
-		- digunakan untuk menghitung perkalian dan menampilkan hasil.
+	```java
+	case  3:  // Perkalian
+		int  perkalian  =  bil1  *  bil2;
+		System.out.println("HASIL: " );
+		System.out.println( biner1  +  " * "  +  biner2  +  " = "  +  desimalBiner(perkalian));
+		break;
+	```
+  
+	- digunakan untuk menghitung perkalian dan menampilkan hasil.
 	
 	##### Case 4 (Operasi Logika) 
-		```java
-			case  4:  // Operasi logika AND, OR, XOR
-				System.out.println("HASIL AND"  +  " = "  +  desimalBiner(bil1  &  bil2));
-				System.out.println("HASIL OR "  +  " = "  +  desimalBiner(bil1  |  bil2));
-				System.out.println("HASIL XOR"  +  " = "  +  desimalBiner(bil1  ^  bil2));
-				break;
-		```
-		- digunakan untuk menghitung dan menampilkan hasil dari operasi logika AND, OR, dan XOR.
+	```java
+	case  4:  // Operasi logika AND, OR, XOR
+		System.out.println("HASIL AND"  +  " = "  +  desimalBiner(bil1  &  bil2));
+		System.out.println("HASIL OR "  +  " = "  +  desimalBiner(bil1  |  bil2));
+		System.out.println("HASIL XOR"  +  " = "  +  desimalBiner(bil1  ^  bil2));
+		break;
+	```
+  
+	- digunakan untuk menghitung dan menampilkan hasil dari operasi logika AND, OR, dan XOR.
 
 - **Metode Konversi Biner ke Desimal**
 	```java
